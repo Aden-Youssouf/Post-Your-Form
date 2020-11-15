@@ -1,0 +1,32 @@
+.FormMovies {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .FormMovies h1 {
+    text-align: center;
+  }
+  
+  .FormMovies.form-data {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+  
+  .FormMovies .form-data label {
+    display: inline-block;
+    width: 75px;
+    margin-right: 10px;
+    text-align: right;
+  }
+  
+  .FormMovies .form-data input:not([type="submit"]) {
+    flex-grow: 1;
+  }
+
+  .form-data button {
+      height: 25px;
+      width: 45px;
+      background-color:white;
+  }
